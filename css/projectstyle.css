@@ -1,9 +1,7 @@
 
 body {
-    margin: 20px;
-    padding: 10px;
     font-family: Georgia, sans-serif;
-	background-color: #B9F2FF;
+	background-color: #0492c2;
 }
 
 
@@ -23,6 +21,8 @@ header img{
 	margin: 0 auto;
 }
 
+
+
 header li{
 	list-style-type: none;
 	padding-right: 10px;	
@@ -36,6 +36,8 @@ header p{
 }
 
 nav a:link{
+	color: black;
+	font-family: Georgia;
 	text-decoration: none;
 }
 
@@ -45,16 +47,13 @@ nav a:visited{
 }
 
 nav a:hover{
-	background-color: #ff9933;
+	background-color: #ffae01;
 }
 
 hr{
 	clear: both;
 }
 
-article{
-	background-color: #7CB9E8;
-}
 
 article#home p{
 	width: 35%;
@@ -65,6 +64,10 @@ article#home p{
 	margin: auto;
 	border-collapse: collapse;
 	background-clip: content-box;
+}
+
+article#home h3{
+	text-align: center;
 }
 
 article img{
@@ -78,9 +81,6 @@ div.video{
 	text-align: center;
 }
 
-div h3{
-	text-align: center;
-}
 
 nav#menu li{
 	padding-bottom: 10px;
@@ -104,3 +104,184 @@ article#safety-measures li{
 article#safety-measure{
 	background-color: #7CB9E8;
 }
+
+article#important-links h3{
+	text-align: center;
+}
+
+article#important-links a:link{
+    color:black;
+}
+
+article#important-links a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+article#important-links a:hover{
+	background-color: #ffae01;
+}
+
+article#pinatubo h3{
+	text-align: center;
+}
+
+article#pinatubo p{
+	font-family: Arial;
+}
+
+article#pinatubo div.info{
+	width: 45%;
+	float: left;
+}
+
+article#pinatubo img{
+    display: inline-block;
+	margin: 0 auto;
+}
+
+
+article#pinatubo div.images	{
+	padding-left: 200px;
+	padding-top: 10px;
+	width: 500px;
+	display: inline-block;
+	transform: rotate(10deg);
+}
+
+article#pinatubo div.images p{
+	text-align: justify;
+	font-family: Georgia;
+}
+
+article#pinatubo div.images p.first{
+	padding-left: 150px;
+}
+
+article#pinatubo div.images p.second{
+	padding-left: 120px;
+}
+
+article#mayon h3{
+	text-align: center;
+}
+
+article#mayon div.info{
+	width: 45%;
+	float: left;
+}
+
+article#mayon img{
+    display: inline-block;
+	margin: 0 auto;
+}
+
+article#mayon div.images {
+	padding-left: 200px;
+	padding-top: 30px;
+	width: 400px;
+	display: inline-block;
+	transform: rotate(5deg);
+}
+
+article#mayon div.images p{
+	text-align: justify;
+	font-family: Georgia;
+}
+
+article#mayon div.images p.first{
+	padding-left: 150px;
+}
+
+article#mayon div.images p.second{
+	padding-left: 110px;
+}
+
+article#taal h3{
+	text-align: center;
+}
+
+article#taal p{
+	font-family: Arial;
+}
+
+article#taal div.info{
+	width: 45%;
+	float: left;
+}
+
+article#taal img{
+    display: inline-block;
+	margin: 0 auto;
+}
+
+article#taal div.images{
+	padding-left: 200px;
+	padding-top: 30px;
+	width: 400px;
+	display: inline-block;
+	transform: rotate(5deg);
+}
+
+article#taal div.images p.first{
+	font-family: Georgia;
+	padding-left: 150px;
+}
+
+article#taal div.images p.second{
+	font-family: Georgia;
+	padding-left: 120px;
+}
+
+footer li{
+	list-style: none;
+	padding-top: 5px;
+}
+
+footer li.twitter{
+	background: url('../images/twitter_colored.png') no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li.twitter a:hover{
+	background: url('../images/twitter_gray.png') no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li.github{
+	background: url('../images/github_colored.png') no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li.github a:hover{
+	background: url('../images/github_gray.png') no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li.email{
+	background: url('../images/email_colored.png') no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li.email a:hover{
+	background: url('../images/email_gray.png')no-repeat;
+	width: 33px;
+	height: 33px;
+}
+
+footer li, footer a {
+	height: 44px;
+	display: block;
+}
+
+footer h5{
+	font-size:15px;
+}
+
+
+
